@@ -52,7 +52,7 @@ header .navbar-default .navbar-nav .active a:hover {
 /**  Navbar Brand **/
 
 header .navbar-brand {
-  background: url(../images/wisdompetlogo.svg);
+  background: url(../images/logo.png);
   background-repeat: no-repeat;
   background-position: 15px 0;
   height: auto;
@@ -184,7 +184,7 @@ header .inbody .navbar-brand span.subhead {
 }
 
 /**  Page -- Services **/
-
+/* 
 .service {
   margin: 20px 0;
   text-align: center;
@@ -207,10 +207,10 @@ and (max-width: 768px) {
   .service p {
     padding: 0 20%;
   }
-}
+} */
 
 /**  Page -- Staff **/
-
+/* 
 #staff {
   background-color: #E4D29D;
   background-image: linear-gradient(to bottom, #E4D29D, #CDAE50);
@@ -233,7 +233,7 @@ and (max-width: 768px) {
 
 .doctor img {
   width: 100%;
-}
+} */
 
 /**  Page -- Testimonials **/
 
