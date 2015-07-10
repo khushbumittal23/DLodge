@@ -246,10 +246,11 @@ and (max-width: 768px) {
 }
 
 #testimonials blockquote {
-  margin: 0;
+  margin: 10px 0 0 10px;
   padding: 0;
   border-left: none;
-  min-height: 500px;
+  min-height: 350px;
+  min-width : 305px;
   position: relative;
 }
 
@@ -259,8 +260,9 @@ and (max-width: 768px) {
   position: absolute;
   bottom: 0;
   width: 100%;
+  max-height: 100%;
   font-weight: 400;
-  border-radius: 0 50px 0 0;
+  border-radius: 0 30px 0 0;
 }
 
 #testimonials blockquote .quote:hover {
@@ -317,7 +319,7 @@ and (max-width: 768px) {
 }
 
 #testimonials .quote {
-  font-size: 1.2em;
+  font-size: 1.1em;
   line-height: 110%;
   font-weight: 400;
 }
@@ -361,6 +363,7 @@ footer {
   color: white;
   font-size: .8em;
   padding: 20px 0 40px 0;
+  height : 170px
 }
 
 footer a {
@@ -498,8 +501,4 @@ footer .navbar-nav>li a {
 .btn_:hover {
   color: #000;
   background: #ffffff;
-}
-
-.margin {
-	margin : 10px;
 }
