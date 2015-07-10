@@ -52,7 +52,7 @@ header .navbar-default .navbar-nav .active a:hover {
 /**  Navbar Brand **/
 
 header .navbar-brand {
-  background: url(../images/logo.png);
+/*   background: url(../images/logo.png); */
   background-repeat: no-repeat;
   background-position: 15px 0;
   height: auto;
@@ -498,4 +498,8 @@ footer .navbar-nav>li a {
 .btn_:hover {
   color: #000;
   background: #ffffff;
+}
+
+.margin {
+	margin : 10px;
 }
