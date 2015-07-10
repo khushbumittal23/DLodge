@@ -168,7 +168,7 @@ header .inbody .navbar-brand span.subhead {
 /**  Page **/
 .page {
   padding: 50px 0;
-  background-color : darkolivegreen;
+  background-color : black;
 }
 
 .page h2 {
@@ -177,10 +177,11 @@ header .inbody .navbar-brand span.subhead {
 }
 
 /**  Page -- Mission **/
-#mission {
+.mission {
   background-color: #E4D29D;
   background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
-  border-top: 20px solid rgba(238, 200, 86, .5);
+ /*  border-top: 20px solid rgba(238, 200, 86, .5); */
+ border-top : 15px solid black
 }
 
 /**  Page -- Services **/
@@ -363,7 +364,7 @@ footer {
   color: white;
   font-size: .8em;
   padding: 20px 0 40px 0;
-  height : 170px
+  height : 140px
 }
 
 footer a {
