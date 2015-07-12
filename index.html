@@ -43,9 +43,9 @@
         <ul class="nav navbar-nav navbar-right">
           <li class="active"><a href="#featured">Home</a></li>
           <li><a href="#lodge">Lodge</a></li>
-          <!-- <li><a href="#booking">Booking</a></li> -->
+          <li><a href="#gallery">Gallery</a></li>
+		  <li><a href="#booking">Booking</a></li>
 		  <li><a href="#testimonials">Activities</a></li>
-          <li><a href="#km4">Booking</a></li>
         </ul>        
       </div><!-- collapse navbar-collapse -->
     </div><!-- container -->
@@ -75,8 +75,8 @@
 
 <div class="main">
   <div class="page mission" id="lodge">
-    <div class="content animatedParent">
-      <h2 class='animated fadeInUpShort'>The Lodge</h2>      
+    <div class="content container animatedParent">
+     <!--  <h2 class='animated fadeInUpShort'>The Lodge</h2> -->      
       <div class="row">
         <p class="col-md-5 col-md-offset-1 animated fadeInLeftShort">Drumnahay Lodge is situated in one of
 									Northern Ireland’s designated areas of Outstanding Natural
@@ -117,6 +117,143 @@
     </div><!-- content container -->
   </div><!-- mission page -->
     
+  <div class="page" id="gallery">	
+	<div class="container">
+    <div class="row animatedParent">
+        <div class="row animated bounceInLeft slowest">
+            <div class="col-md-4">
+                <div class="well">
+                    <img class="thumbnail img-responsive" src="images/gallery/1.jpg" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+                    <img class="thumbnail img-responsive" src="images/gallery/7.jpg" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+                    <img class="thumbnail img-responsive" src="images/gallery/9.jpg" />
+                </div>
+            </div>
+        </div>
+        <div class="row animated bounceInRight slowest">
+            <div class="col-md-4">
+                <div class="well">
+                    <img class="thumbnail img-responsive" src="images/gallery/8.jpg" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+                    <img class="thumbnail img-responsive" src="images/gallery/10.jpg" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+                    <img class="thumbnail img-responsive" src="images/gallery/5.jpg" />
+                </div>
+            </div>
+        </div>
+        <div class="row animated bounceInLeft slowest">
+            <div class="col-md-4">
+                <div class="well">
+                    <img class="thumbnail img-responsive" src="images/gallery/3.jpg" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+                    <img class="thumbnail img-responsive" src="images/gallery/6.jpg" />
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="well">
+                    <img class="thumbnail img-responsive" src="images/gallery/2.jpg" />
+                </div>
+            </div>
+        </div>
+    </div>
+	</div>
+</div>
+  <div class="page mission" id="booking">
+		<div class="row animatedParent">
+		    <div class="col-md-6 col-lg-9">
+				<h3>Location</h3>
+				<div class="contact-info-inner animated bounceInLeft">
+					<h3><strong>Contact info</strong></h3></br>
+					
+					<div>
+						<i class="fa fa-map-marker pull-left"></i> 
+						<p>
+							<strong>Address: </strong>Her Majesty The Queen, <br>Buckingham
+							Palace, London, SW1A 1AA
+						</p>
+					</div>
+					<div>
+						<i class="fa fa-phone pull-left"></i>
+						<p>
+							<strong>Phone:</strong>(028) 70849439
+						</p>
+					</div>
+					<div>
+						<i class="fa fa-envelope-o pull-left"></i>
+						<p>
+							<strong>Email:</strong>drumnahaylodge@gmail.com
+						</p>
+					</div>
+					<div>
+						<i class="fa fa-check-circle-o pull-left"></i>
+						<p>
+							<strong>Office Hours:</strong>10 a.m. - 6 p.m.
+						</p>
+					</div>
+				</div>
+				<div class="map">
+					<iframe src="
+http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282
+						355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed">
+					</iframe>
+				</div>
+			</div>
+			<div class="col-md-6 col-lg-3">
+			<h3>Booking</h3>
+			<form id="bookingForm">
+				<!-- <div class="fl1"> -->
+					<div class="tmInput">
+						<input name="Name" placeHolder="Name:" type="text" data-constraints='@NotEmpty @Required @AlphaSpecial'>
+					</div>
+				<!-- </div> -->
+				<div class="clear"></div>
+				<!-- <div class="fl1"> -->
+					<div class="tmInput">
+						<input name="Email" placeHolder="Email:" type="text" data-constraints="@NotEmpty @Required @Email">
+					</div>
+				<!-- </div> -->
+				<div class="clear"></div>
+				<div class="tmInput">
+						<input name="Phone" placeHolder="Phone:" type="text" data-constraints="@NotEmpty @Required @Numeric">
+					</div>
+				<div class="clear"></div>
+				<strong>Check-in</strong>
+				<div class="clear"></div>
+				<label class="tmDatepicker"> 
+					<input type="text" id="from" name="Check-in" data-constraints="@NotEmpty @Required @Date">
+				</label>
+				<div class="clear"></div>
+				<strong>Check-out</strong>
+				<div class="clear"></div>
+				<label class="tmDatepicker"> 
+					<input type="text" id="to" name="Check-out" data-constraints="@NotEmpty @Required @Date">
+				</label>
+				<div class="clear"></div>
+				<div class="tmTextarea">
+					<textarea name="Message" placeHolder="Message" data-constraints='@NotEmpty @Required @Length(min=20,max=999999)'></textarea>
+				</div>
+				<a href="#" class="btn btn_ btn-small_" data-type="submit">Submit</a>
+			</form>
+			</div>
+		</div>
+  </div>	
+	
   <div class="page" id="testimonials">
     <div class="container-fluid">
       <h2>Activities</h2>
@@ -227,87 +364,9 @@ raisins are to pets, and Roxie is no longer allowed to roam unattended in the or
           </div>
         </blockquote>         
 
-    </div><!-- container -->
+    </div>
+	</div><!-- container -->
   </div><!-- testimonials page -->
-  <div class="page mission" id="km4">
-		<div class="row animatedParent">
-			<!-- <div class="container-fluid"> --> <div class="col-md-6 col-lg-9">
-				<h3>Location</h3>
-				<div class="contact-info-inner animated bounceInLeft">
-					<h3><strong>Contact info</strong></h3></br>
-					
-					<div>
-						<i class="fa fa-map-marker pull-left"></i> 
-						<p>
-							<strong>Address: </strong>Her Majesty The Queen, <br>Buckingham
-							Palace, London, SW1A 1AA
-						</p>
-					</div>
-					<div>
-						<i class="fa fa-phone pull-left"></i>
-						<p>
-							<strong>Phone:</strong>(028) 70849439
-						</p>
-					</div>
-					<div>
-						<i class="fa fa-envelope-o pull-left"></i>
-						<p>
-							<strong>Email:</strong>drumnahaylodge@gmail.com
-						</p>
-					</div>
-					<div>
-						<i class="fa fa-check-circle-o pull-left"></i>
-						<p>
-							<strong>Office Hours:</strong>10 a.m. - 6 p.m.
-						</p>
-					</div>
-				</div>
-				<div class="map">
-					<iframe src="
-http://maps.google.com/maps?f=q&amp;source=s_q&amp;hl=en&amp;geocode=&amp;q=Brooklyn,+New+York,+NY,+United+States&amp;aq=0&amp;sll=37.0625,-95.677068&amp;sspn=61.282
-						355,146.513672&amp;ie=UTF8&amp;hq=&amp;hnear=Brooklyn,+Kings,+New+York&amp;ll=40.649974,-73.950005&amp;spn=0.01628,0.025663&amp;z=14&amp;iwloc=A&amp;output=embed">
-					</iframe>
-				</div>
-			</div>
-			<div class="col-md-6 col-lg-3">
-			<h3>Booking</h3>
-			<form id="bookingForm">
-				<!-- <div class="fl1"> -->
-					<div class="tmInput">
-						<input name="Name" placeHolder="Name:" type="text" data-constraints='@NotEmpty @Required @AlphaSpecial'>
-					</div>
-				<!-- </div> -->
-				<div class="clear"></div>
-				<!-- <div class="fl1"> -->
-					<div class="tmInput">
-						<input name="Email" placeHolder="Email:" type="text" data-constraints="@NotEmpty @Required @Email">
-					</div>
-				<!-- </div> -->
-				<div class="clear"></div>
-				<div class="tmInput">
-						<input name="Phone" placeHolder="Phone:" type="text" data-constraints="@NotEmpty @Required @Numeric">
-					</div>
-				<div class="clear"></div>
-				<strong>Check-in</strong>
-				<div class="clear"></div>
-				<label class="tmDatepicker"> 
-					<input type="text" id="from" name="Check-in" data-constraints="@NotEmpty @Required @Date">
-				</label>
-				<div class="clear"></div>
-				<strong>Check-out</strong>
-				<div class="clear"></div>
-				<label class="tmDatepicker"> 
-					<input type="text" id="to" name="Check-out" data-constraints="@NotEmpty @Required @Date">
-				</label>
-				<div class="clear"></div>
-				<div class="tmTextarea">
-					<textarea name="Message" placeHolder="Message" data-constraints='@NotEmpty @Required @Length(min=20,max=999999)'></textarea>
-				</div>
-				<a href="#" class="btn btn_ btn-small_" data-type="submit">Submit</a>
-			</form>
-			</div>
-		</div>
-	</div>	
 </div><!-- main -->
 
 <footer>
