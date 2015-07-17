@@ -505,15 +505,30 @@ footer .navbar-nav>li a {
   background: #ffffff;
 }
 
-img {
-    filter: gray; /* IE6-9 */
-    -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+/* img {
+    filter: gray; 
+    -webkit-filter: grayscale(1); 
     -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
     -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
     box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
     margin-bottom: 20px;
 }
 img:hover {
-    filter: none; /* IE6-9 */
-    -webkit-filter: grayscale(0); /* Google Chrome, Safari 6+ & Opera 15+ */
+    filter: none; 
+    -webkit-filter: grayscale(0); 
 }
+ 
+
+img {
+    opacity: 0.4;
+    filter: alpha(opacity=40);
+    -webkit-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    box-shadow: 0px 2px 6px 2px rgba(0,0,0,0.75);
+    margin-bottom: 20px;
+}
+img:hover {
+	opacity: 1;
+    filter: alpha(opacity=100);
+}
+*/
