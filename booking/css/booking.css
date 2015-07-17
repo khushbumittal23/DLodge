@@ -49,7 +49,7 @@
   min-height: 143px;
   resize: none;
   padding-top: 10px !important;
-  color: #737272;
+/*   color: #737272; */
   font: 14px/20px 'Open Sans', sans-serif;
 
 }
@@ -73,7 +73,7 @@
   display: block;
   padding-top: 5px;
   margin-right: 27px;
-  color: #737272;
+/*   color: #737272; */
   font: 14px/20px 'Open Sans', sans-serif;
 }
 #bookingForm input,
@@ -84,7 +84,7 @@
   box-sizing: border-box;
 
   border: 1px solid #f1f1f1;
-  color: #737272;
+ /*  color: #737272; */
   background: #f0f3f5;
   padding: 5px 12px;
   width: 100%;

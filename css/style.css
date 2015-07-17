@@ -6,6 +6,9 @@ body{
   font-weight: 300;
   font-size: 2em;
   position: relative;
+  color : beige;
+  overflow-x :hidden;
+  overflow-y : scroll;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,15 +30,15 @@ header .navbar-default {
 }
 
 header .navbar-default .navbar-nav a {
-  color: white;
+  color: #75c5cf;
   padding: 5px 8px;
 }
 
 header .navbar-default .navbar-nav a:hover {
-  color: #EEC856;
+  color: beige;
 }
 
-header .navbar-default .navbar-nav .active a {
+/* header .navbar-default .navbar-nav .active a {
   font-weight: 700;
   color: #EEC856;
   background: transparent;
@@ -47,7 +50,7 @@ header .navbar-default .navbar-nav .active a:hover {
   color: #E15D5F;
   background: transparent;
   text-shadow: none;
-}
+} */
 
 /**  Navbar Brand **/
 
@@ -92,7 +95,8 @@ and (max-width: 768px) {
 /**  nav inbody **/
 
 header .inbody {
-  background: rgba(104,73,49,.9);
+ /*  background: rgba(104,73,49,.9); */
+ background : rgba(50,73,109,.9);
 }
 
 header .navbar.inbody {
@@ -168,7 +172,7 @@ header .inbody .navbar-brand span.subhead {
 /**  Page **/
 .page {
   padding: 50px 0;
-  background-color : black;
+  background-color : rgba(50,73,109,.7);
   /* border-top : 5px solid black */
 }
 
@@ -179,8 +183,8 @@ header .inbody .navbar-brand span.subhead {
 
 /**  Page -- Mission **/
 .mission {
-  background-color: #E4D29D;
-  background-image: linear-gradient(to bottom, #EEF08A, #819A2D);
+  background-color: #75c5cf;
+  background-image: linear-gradient(to bottom, #75c5cf, #819A2D);
    border-top: 20px solid rgba(238, 200, 86, .5);
 /*  border-top : 15px solid black */
 }
@@ -324,6 +328,7 @@ and (max-width: 768px) {
   font-size: 1.1em;
   line-height: 110%;
   font-weight: 400;
+  color : black;
 }
 
 
@@ -361,7 +366,9 @@ and (max-width: 768px) {
 /**  Footer **/
 
 footer {
-  background: rgba(104,73,49,.9);
+  /* background: rgba(104,73,49,.9); 
+  background : #75c5cf; */
+  background : rgba(50,73,109,.9);
   color: white;
   font-size: .8em;
   padding: 20px 0 40px 0;
@@ -369,11 +376,11 @@ footer {
 }
 
 footer a {
-  color: #E0E6AE;
+  color: #75c5cf;
 }
 
 footer a:hover {
-  color: #EEC856 !important;
+  color: white !important;
 }
 
 footer .phone {
@@ -396,8 +403,8 @@ footer .navbar-default {
 footer .navbar-nav>li a {
   padding-top: 0;
   padding-bottom: 0;
-  text-decoration: underline;
-  color: #EEC856 !important;
+/*   text-decoration: underline;
+  color: #EEC856 !important; */
 }
 
 .contact-info p{
@@ -477,7 +484,7 @@ footer .navbar-nav>li a {
 
 /* buttons*/
 .btn_ {
-  background: #cf3046;
+  background: #75c5cf;
   border: none;
   text-shadow: none;
   font-family: "Open Sans", sans-serif;
@@ -503,6 +510,24 @@ footer .navbar-nav>li a {
 .btn_:hover {
   color: #000;
   background: #ffffff;
+}
+
+.social-icon{
+	padding-top: 6px;
+	font-size: 16px;
+	text-align: center;
+	width: 32px;
+	height: 32px;
+	border: 2px solid #777;
+	border-radius: 50%;
+	color: #777;
+	margin: 5px;
+}
+
+a.social-icon:hover, a.social-icon:active, a.social-icon:focus{
+	text-decoration: none;
+	color: #434343;
+	border-color: #434343;
 }
 
 /* img {
